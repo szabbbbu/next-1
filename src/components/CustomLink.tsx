@@ -10,7 +10,7 @@ type Props = {
 export default function CustomLink({children, to}: Props) {
 
     return (
-        <Link href={to}>
+        <Link id={Styles.linkRoot} href={to}>
             <button id={Styles.customLink}>
                 {children}
             </button>
